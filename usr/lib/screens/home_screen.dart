@@ -15,19 +15,19 @@ class _HomeScreenState extends State<HomeScreen> {
       name: 'Jessica',
       age: 25,
       bio: 'Lover of life, dogs, and tacos. Let\'s go on an adventure!',
-      imageUrls: ['https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'],
+      imageUrls: ['https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?q=80&w=1974&auto=format&fit=crop&ixlib-rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'],
     ),
     User(
       name: 'Samantha',
       age: 28,
       bio: 'Just a girl looking for her guy. I enjoy hiking and reading.',
-      imageUrls: ['https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'],
+      imageUrls: ['https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1974&auto=format&fit=crop&ixlib-rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'],
     ),
     User(
       name: 'Olivia',
       age: 22,
       bio: 'Music festival enthusiast. Looking for someone to dance with.',
-      imageUrls: ['https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'],
+      imageUrls: ['https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib-rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'],
     ),
   ];
 
@@ -44,14 +44,14 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
-          icon: const Icon(Icons.person, color: Colors.grey),
+          icon: const Icon(Icons.person),
           onPressed: () {},
         ),
         title: const Text('For You'),
         centerTitle: true,
         actions: [
           IconButton(
-            icon: const Icon(Icons.message, color: Colors.grey),
+            icon: const Icon(Icons.message),
             onPressed: () {},
           ),
         ],
